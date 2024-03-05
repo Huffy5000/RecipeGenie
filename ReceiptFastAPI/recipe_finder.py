@@ -1,7 +1,7 @@
 from openai import OpenAI
 
 client = OpenAI(
-    api_key='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') #Set as environ var in production
+    api_key='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') #DEAD KEY 
 
 def gpt_response(prompt):
     chat_completion = client.chat.completions.create(
@@ -22,7 +22,7 @@ def ingredient_extractor(ocr_result):
     return (gpt_response(prompt))
 
 
-# provides the recipes and how to make each of the items as a tuple, which we can use later idk i forgot
-def recipe_maker(ingredients):  #this costs money btw
+# provides the recipes and how to make each of the items as a tuple
+def recipe_maker(ingredients):  
     prompt = f"I have these ingredients available: {ingredients}. Give me a python list with tuples of recipes that I can make, so (recipe name, how to make it)."
     return gpt_response(prompt)
