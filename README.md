@@ -1,7 +1,7 @@
 # RecipeGenie
 RecipeGenie is a software that uses OCR and a custom API to send recipe suggestions based on a receipt image. This project was made as part of the UNIHACK/Altassian Hackathon 2024. 
 
-**Link to project:** https://youtu.be/6diwDfM9Ue8?si=GrofulDr7CTqJUlz&t=52
+**Link to project demo:** https://youtu.be/6diwDfM9Ue8?si=GrofulDr7CTqJUlz&t=52
 
 ## How It's Made:  
 
