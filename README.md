@@ -16,6 +16,11 @@ This text was then processed using OCR. To ensure that the text scanned was reli
 The key lesson learnt from this application was how to process images, and develop an asynchronus API rapidly. Most of the challenges faces were with OCR's text recognition not working as intended, therefore a large amount of time and research had to be invested into figuring out the steps required to process the image in order to make it readable. 
 
 
+## Contributors
+Dhruv Israni
+Suman Plackal 
+Adrian Dimar
+Jayden Mun Wai Ng
 
 
 
